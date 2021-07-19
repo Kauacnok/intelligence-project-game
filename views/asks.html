@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/asks.css">
+    <title>Bem vindo</title>
+</head>
+<body>
+    <header>
+        <article id="askTitle">
+            <a href="../views/index.html"><img src="../images/arrow-back.svg" alt="Voltar"></a>
+            <h2>Escolha a alternativa correta</h2>
+            <h1>Intelligence</h1>
+        </article>
+    </header>
+    <main>
+        <img src="../images/success-background.svg" alt="fundo">
+        <div id="content">
+            <div id="askContent">
+                <!--<input id="ask" type="button" value="">--><h1 id="ask"></h1>
+            </div>
+            <div id="answers">
+                <input type="button" value="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe nihil, delectus ratione quia excepturi esse repellat mollitia earum atque, incidunt nam, sit qui! Incidunt nisi necessitatibus ipsum facilis itaque odit?" onclick="verifyAnswer(0)" class="options"><img src="#" alt="" class="imgCorrectOrWrong">
+                <input type="button" value="Resposta" onclick="verifyAnswer(1)" class="options"><img src="#" alt="" class="imgCorrectOrWrong">
+                <input type="button" value="Resposta" onclick="verifyAnswer(2)" class="options"><img src="#" alt="" class="imgCorrectOrWrong">
+                <input type="button" value="Resposta" onclick="verifyAnswer(3)" class="options"><img src="#" alt="" class="imgCorrectOrWrong">
+            </div>
+            <div id="next">
+                <p>Boa sorte <img src="../images/purple-heart.svg" alt="Coração Roxo"></p>
+                <p id="pcenter">Acertos: </p>
+                <a href="#" id="link"><input type="button" value="Próxima pergunta" onclick="nextAsk()" id="colorButton"></a>
+            </div>
+            <div id="alert">
+                <p></p>
+            </div>
+        </div>
+        <img src="../images/landing.svg" alt="fundo">
+    </main>
+    <script src="../scripts/asks.js"></script>
+</body>
+</html>

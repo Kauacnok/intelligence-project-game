@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+    background-color: var(--color-primary-light);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+header #askTitle {
+    background-color: #774DD6;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header #askTitle img, h1 {
+    display: inline;
+}
+
+header #askTitle img {
+    height: 30px;
+    width: 30px;
+    border: 2px solid var(--color-primary-light);
+    border-radius: 24px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+header #askTitle img:hover {
+    cursor: pointer;
+}
+
+header #askTitle a:hover {
+    cursor: default;
+}
+
+header #askTitle h1 {
+    color: white;
+    margin-right: 10px;
+}
+
+header #askTitle h2 {
+    color: white;
+    text-align: center;
+}
+
+main {
+    display: flex;
+}
+
+main #content {
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #774DD6;
+    display: inline;
+    height: 100%;
+    width: 60%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.486);
+}
+
+/*
+main #content abbr {
+    text-decoration: none;
+} */
+
+main #content #askContent {
+    width: 90%;
+    height: 60px;
+}
+
+
+main #content #askContent h1 {
+    height: 100%;
+    width: 100%;
+    white-space: normal;
+    font-size: 12px;
+    margin: 10px;
+    padding-top: 0px;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    background: none;
+    border: none;
+    display: block;
+    text-align: center;
+}
+
+main #content h2 {
+    font-size: 18px;
+    margin: 20px;
+    padding-top: 0px;
+    color: white;
+    display: inline;
+    text-align: justify;
+    text-decoration: none;
+}
+
+main img {
+    margin: auto;
+    width: 20%;
+    display: inline;
+}
+
+main #content #answers {
+    display: block;
+}
+
+main #answers {
+    margin-top: 20px;
+}
+
+main #content #answers input {
+    cursor: pointer;
+    display: inline-block;
+    height: 30px;
+    width: 80%;
+    text-align: left;
+}
+
+main #next {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+main #next p, input {
+    display: inline;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    height: 30px;
+    width: 150px;
+}
+
+main #next input {
+    background-color: var(--color-secondary);
+    border: 2px solid var(--color-secondary);
+    border-radius: 24px;
+    color: white;
+    transition: background-color 200ms;
+}
+
+main #next a {
+    text-decoration: none;
+}
+
+main #next a:hover {
+    cursor: default;
+}
+
+main #next input:hover {
+    cursor: pointer;
+    background-color: var(--color-secondary-dark);
+    border: 2px solid var(--color-secondary-dark);
+}
+
+#colorButton {
+    margin-right: 20px;
+}
+
+.imgCorrectOrWrong {
+    display: inline;
+    margin-left: 10px;
+    width: 20px;
+}
+
+main #next img {
+    display: inline;
+    height: 20px;
+}
+
+main #next p {
+    color: white
+}
+
+main #pcenter {
+    padding-top: 15px;
+    text-align: center;
+}
+
+main #alert p {
+    margin: 20px;
+    color: white;
+}
